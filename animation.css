@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.square
+{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: blue;
+    margin-left: 20px;
+}
+#first
+{
+    transform: translate(200px,20px);
+}
+#second
+{
+    transform: skew(200deg , 20deg);
+
+}
+#third
+{
+    transform: rotate(20deg);
+}
+#forth
+{
+    transform: scale(1.5);
+}
